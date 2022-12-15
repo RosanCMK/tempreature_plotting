@@ -1,5 +1,5 @@
 The API
 =======
 
-.. automodule:: temperature_plotting
+.. automodule:: tempreature_plotting
     :members:
