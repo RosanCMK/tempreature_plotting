@@ -3,6 +3,10 @@ import os
 import pytest
 import temperature_plotting as tpl
 
+def test_compute_mean_bad():
+    calc = tpl.compute_mean([1,2,3])
+    assert calc == 5
+
 def test_compute_mean():
     calc = tpl.compute_mean([0, 10, 20])
     assert calc == 10
